@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background: #E6D5B9;
+}
+.header{
+    height: 158px;
+    background-color: #4E3835;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E6D5B9;
+    border-radius: 10px;
+    padding: 16px 25px;
+}
+.container {
+    padding: 50px 50px;    
+    display: flex;
+    flex-wrap: unwrap;
+    justify-content: space-evenly;
+}
+.left-blocks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+
+}
+.img-1 {
+    width: 280px;
+    height: 280px;
+    margin-left: 45px;
+}
+.img-2 {
+    width: 280px;
+    height: 186.41px;
+    margin-right: 50px;
+}
+.img-3 {
+    width: 280px;
+    height: 420px;
+}
+.block-1{
+    padding: 29px 43px;
+    display: flex;
+    margin-bottom: 20px;
+    border: 3px solid #4E3835;
+    border-radius: 10px;
+    width: 750px;
+    height: 350px;
+    -right: 0px;
+}
+.block-2{
+    padding: 29px 43px;
+    display: flex;
+    border: 3px solid #4E3835;
+    border-radius: 10px;
+    width: 750px;
+    height: 350px;
+    padding-top: 70px;
+}
+.block-3{
+    padding: 29px 43px;
+    border: 3px solid #4E3835;
+    border-radius: 10px;
+    width: 367px;
+    height: 720px;
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+.margin-top{
+    width: 274px;
+    height: 206px;
+    left: 1004px;
+    top: 759px;
+    margin-top: 40px;
+    text-align: center;
+}
+.margin-left{
+    width: 332px;
+    height: 206px;
+    left: 487px;
+    top: 717px;
+}
+.margin-right{
+    width: 280px;
+    height: 280px;
+    left: 541px;
+    top: 240px;
+}
+.block-title{
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #4E3835;
+
+    display: block;
+    margin-bottom: 30px;
+}
+
+.block-title:hover{
+    text-decoration: underline;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #4E3835;
+
+    display: block;
+    margin-bottom: 30px;
+}
+
+.block-description{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #4E3835;
+}
